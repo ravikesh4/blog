@@ -13,7 +13,7 @@ function App() {
 
       <Router>
         <Switch>
-          <Route exact path="/blog/:id">
+          <Route exact path="/blog/blog/:id">
             <Header />
             <BlogDetails
               id="3"
@@ -25,11 +25,11 @@ function App() {
               date="July 19, 2020"
             />
           </Route>
-          <Route path="/create/blog" exact>
+          <Route path="/blog/create/blog" exact>
             <Header />
             <CreatePost />
           </Route>
-          <Route path="/">
+          <Route path="/blog">
             <Header />
             <Home />
           </Route>

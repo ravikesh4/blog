@@ -22,18 +22,18 @@ function Header(props) {
                             </form>
                         </div>
                         <div className="col-4 site-logo">
-                            <Link to="/" className="text-black h2 mb-0">Blog</Link>
+                            <Link to="/blog" className="text-black h2 mb-0">Ravikesh</Link>
                         </div>
                         <div className="col-8 text-right">
                             <nav className="site-navigation" role="navigation">
-                                <ul className="site-menu js-clone-nav mr-auto d-none d-lg-block mb-0">
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/blog">Tech</Link></li>
-                                    <li><Link to="/create/blog">Create Blog</Link></li>
+                                <ul className="site-menu js-clone-nav mr-auto d-lg-block mb-0">
+                                    <li><Link to="/blog">Home</Link></li>
+                                    {/* <li><Link to="/blog/blog">Tech</Link></li> */}
+                                    <li><Link to="/blog/create/blog">Create Blog</Link></li>
                                 </ul>
                             </nav>
-                            <Link to="#" className="site-menu-toggle js-menu-toggle text-black d-inline-block d-lg-none"><span
-                                className="icon-menu h3"></span></Link>
+                            {/* <Link to="#" className="site-menu-toggle js-menu-toggle text-black d-inline-block d-lg-none"><span
+                                className="icon-menu h3"></span></Link> */}
                         </div>
                     </div>
                 </div>
